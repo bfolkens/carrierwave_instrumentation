@@ -1,3 +1,18 @@
 = CarrierWaveInstrumentation
 
-This project rocks and uses MIT-LICENSE.
+Simple plugin to add ActiveSupport Instrumentation to CarrierWave.  Right now just process! is monitored, more to come...
+
+== Installation
+
+Add it to your Gemfile:
+
+```ruby
+gem 'carrierwave_instrumentation'
+```
+
+Configure your instrumentation subscriptions to listen for:
+
+```
+process.carrierwave
+```
+
