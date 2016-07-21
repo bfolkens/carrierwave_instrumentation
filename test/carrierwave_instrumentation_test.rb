@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class CarrierwaveInstrumentationTest < ActiveSupport::TestCase
+class CarrierWaveInstrumentationTest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, CarrierwaveInstrumentation
+    assert_kind_of Module, CarrierWaveInstrumentation
   end
 end
