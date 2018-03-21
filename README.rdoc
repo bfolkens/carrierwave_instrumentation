@@ -6,7 +6,7 @@ Simple plugin to add ActiveSupport Instrumentation to CarrierWave.  Right now ju
 
 Add it to your Gemfile:
 
-```ruby
+```
 gem 'carrierwave_instrumentation'
 ```
 
