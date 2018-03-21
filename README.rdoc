@@ -6,13 +6,9 @@ Simple plugin to add ActiveSupport Instrumentation to CarrierWave.  Right now ju
 
 Add it to your Gemfile:
 
-```
-gem 'carrierwave_instrumentation'
-```
+  gem 'carrierwave_instrumentation'
 
 Configure your instrumentation subscriptions to listen for:
 
-```
-process.carrierwave
-```
+  process.carrierwave
 
