@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "> 3.0"
   s.add_dependency "carrierwave", "> 0.6.1"
+	s.add_dependency "loofah", "~> 2.2.1"
+	s.add_dependency "nokogiri", "~> 1.8.1"
 
   s.add_development_dependency "sqlite3"
 end
